@@ -1,0 +1,27 @@
+#stage{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+@keyframes tagada {
+    0%   {border-color: red; left:20px; top:20px; transform: rotate(0deg); border-radius: 0%; width: 74px; height: 74px;}
+    25%  {border-color: red; left:499px; top:20px; transform: rotate(0deg); border-radius: 0%; width: 74px; height: 74px;}
+    50%  {border-color: red; left:499px; top:200px; transform: rotate(0deg); border-radius: 0%; width: 74px; height: 74px;}
+    53%  {border-color: red; left:269px; top:200px; transform: rotate(45deg); border-radius: 0%; width: 74px; height: 74px;}
+    63%  {border-color: red; left:269px; top:200px; transform: rotate(45deg); border-radius: 0%; width: 74px; height: 74px;}
+    75%  {border-color: blue; left:20px; top:204px; transform: rotate(90deg); border-radius: 0%; width: 74px; height: 74px; background: radial-gradient(rgba(251, 218, 97, 0), rgb(247, 107, 28, 0));}
+    100% {border-color: red; left:442px; top:441px; transform: rotate(90deg); border-radius: 50%; width: 150px; height: 150px; background: radial-gradient(rgba(251, 218, 97, 1), rgb(247, 107, 28, 1));}
+}
+#hero{
+    width: 74px;
+    height: 74px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    animation-name: tagada;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
